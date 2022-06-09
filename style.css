@@ -17,14 +17,6 @@ section {
   background-color: #edb682;
 }
 
-.jumbotron {
-  padding-top: 4rem;
-  background-color: #8a300c;
-}
-#card {
-  background-color: #8a300c;
-}
-
 .bg-red {
   background-color: #69260b !important;
 }
@@ -34,9 +26,4 @@ section {
   color: white !important;
   border-color: #69260b !important;
   width: 150px;
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }
