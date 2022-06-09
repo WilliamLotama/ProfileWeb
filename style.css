@@ -1,10 +1,42 @@
-body {
-  min-height: 2000px;
-}
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 7rem;
   background-color: #edb682;
 }
 #project {
   background-color: #edb682;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #edb682;
+}
+
+.jumbotron {
+  padding-top: 4rem;
+  background-color: #8a300c;
+}
+#card {
+  background-color: #8a300c;
+}
+
+.bg-red {
+  background-color: #69260b !important;
+}
+
+.btn-warning {
+  background-color: #69260b !important;
+  color: white !important;
+  border-color: #69260b !important;
+  width: 150px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }

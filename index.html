@@ -21,9 +21,9 @@
     <link rel="stylesheet" href="style.css" />
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body id="home">
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #c08853">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #c08853">
       <div class="container shadow-sm">
         <a class="navbar-brand" href="#">Porto || William </a>
         <button
@@ -40,16 +40,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Project</a>
+              <a class="nav-link" href="#project">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -79,14 +79,17 @@
           </div>
         </div>
         <div class="row d-flex justify-content-center text-center">
-          <div class="col">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum magnam nemo
-            necessitatibus esse incidunt atque dicta dolorum? Labore, dolorem architecto?
+          <div class="col-mb-12">
+            <p class="fs-4">
+              Graduate of Bachelor Informatics Technology, I Have an Intrest in full-stack
+              developers, <br />especially Front End Division, and I Have Good Taste In Creativity
+              And Logic
+            </p>
           </div>
-          <div class="col">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus architecto odio iste
-            laudantium quisquam, aut quibusdam culpa dolorem necessitatibus vero rem ipsa
-            dignissimos accusantium expedita.
+          <div class="col-mb-12 m-3">
+            <p class="fs-4">
+              Please Contact Me If you wanna collaborate to make Awesome Things or wanna hire me.
+            </p>
           </div>
         </div>
       </div>
@@ -105,37 +108,21 @@
         <div class="row">
           <div class="col text-center mb-3"><h2>My Project</h2></div>
         </div>
-        <div class="row">
-          <div class="col-4">
-            <div class="card rounded-3">
-              <img src="assets/Speaker (1).jpg" class="card-img-top" alt="..." />
+        <div class="row justify-content-center">
+          <div class="col-md-5 my-3 mx-3">
+            <div class="card text-center">
+              <img src="assets/1.JPG" class="card-img-top" alt="..." />
               <div class="card-body">
+                <h3 class="card-title">DumbSound</h3>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
+                  Fullstack using React Js, css, Javascript, Bootstrap, Node Js, PostgresSQL,
+                  Socket.io, Express, PHPmyadmin
                 </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <img src="assets/Speaker (1).jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <img src="assets/Speaker (1).jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
+                <span>
+                  <a href="https://github.com/WilliamLotama/web-dw" class="btn btn-warning"
+                    >Repository</a
+                  ></span
+                >
               </div>
             </div>
           </div>
@@ -151,7 +138,7 @@
     </section>
     <!-- Project Section End -->
     <!-- Contact Me Section -->
-    <section>
+    <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col">
