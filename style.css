@@ -27,3 +27,12 @@ section {
   border-color: #69260b !important;
   width: 150px;
 }
+
+.card-style {
+  background-color: rgb(241, 241, 241) !important;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
